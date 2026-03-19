@@ -1,16 +1,60 @@
-# React + Vite
+# MyDE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MyDE is a lightweight, browser-based web IDE for building simple sites fast.
 
-Currently, two official plugins are available:
+It lets you:
+- Manage local projects.
+- Edit HTML, CSS, and JavaScript in a Monaco-powered editor.
+- Preview changes live.
+- Use an AI panel to propose and apply code updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Project data and settings are stored locally in the browser.
 
-## React Compiler
+## How It Was Built
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+MyDE is built with:
+- React for UI and state handling.
+- Vite for development and production builds.
+- Monaco Editor for code editing.
+- LocalStorage for projects, files, and app settings.
 
-## Expanding the ESLint configuration
+The app is structured around a project manager view and an editor view (code, preview, split), with reusable components for toolbar actions, AI interactions, settings, and export helpers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+Prerequisites:
+- Node.js 18+ (recommended)
+- npm
+
+Install dependencies:
+npm install
+
+Run locally:
+npm run dev
+
+Build for production:
+npm run build
+
+Run lint checks:
+npm run lint
+
+Preview the production build:
+npm run preview
+
+## Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a branch for your change.
+3. Keep changes focused and small.
+4. Run lint and build locally before opening a PR.
+5. Open a pull request with:
+	- A short summary of what changed.
+	- Why the change is needed.
+	- Screenshots or short recordings for UI updates.
+
+Good first contributions:
+- UI polish and responsive improvements.
+- Better onboarding defaults/templates.
+- Bug fixes in editor, preview, and project flows.
