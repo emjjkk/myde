@@ -1,6 +1,6 @@
-# MyDE
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8a7be4cc-c36c-4e6b-9001-8211f9d67d07" />
 
-MyDE is a lightweight, browser-based web IDE for building simple sites fast.
+# MyDE - Offline-First Web IDE with LLM Support.
 
 It lets you:
 - Manage local projects.
@@ -26,35 +26,3 @@ Prerequisites:
 - Node.js 18+ (recommended)
 - npm
 
-Install dependencies:
-npm install
-
-Run locally:
-npm run dev
-
-Build for production:
-npm run build
-
-Run lint checks:
-npm run lint
-
-Preview the production build:
-npm run preview
-
-## Contributing
-
-Contributions are welcome.
-
-1. Fork the repository.
-2. Create a branch for your change.
-3. Keep changes focused and small.
-4. Run lint and build locally before opening a PR.
-5. Open a pull request with:
-	- A short summary of what changed.
-	- Why the change is needed.
-	- Screenshots or short recordings for UI updates.
-
-Good first contributions:
-- UI polish and responsive improvements.
-- Better onboarding defaults/templates.
-- Bug fixes in editor, preview, and project flows.
