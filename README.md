@@ -4,10 +4,10 @@
 
 A simplem local-first editor that allows you to use any LLM of your choice and saves automatically everything - projects, preferences - to your localstorage. Useful for prototyping quick landing pages and simple web apps with AI, includes a full-featured code editor as well as download and export to github features.
 
-### Technologies
-- Vite
-- ReactJS
-- Monaco
-- Javascript
-- CSS
+**Technologies**
+Vercel, Vite, ReactJS, Monaco, Javascript, CSS.
+
+**Live Demo**
+https://myde.emjjkk.tech
+
 
