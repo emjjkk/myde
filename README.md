@@ -2,27 +2,12 @@
 
 # MyDE - Offline-First Web IDE with LLM Support.
 
-It lets you:
-- Manage local projects.
-- Edit HTML, CSS, and JavaScript in a Monaco-powered editor.
-- Preview changes live.
-- Use an AI panel to propose and apply code updates.
+A simplem local-first editor that allows you to use any LLM of your choice and saves automatically everything - projects, preferences - to your localstorage. Useful for prototyping quick landing pages and simple web apps with AI, includes a full-featured code editor as well as download and export to github features.
 
-Project data and settings are stored locally in the browser.
-
-## How It Was Built
-
-MyDE is built with:
-- React for UI and state handling.
-- Vite for development and production builds.
-- Monaco Editor for code editing.
-- LocalStorage for projects, files, and app settings.
-
-The app is structured around a project manager view and an editor view (code, preview, split), with reusable components for toolbar actions, AI interactions, settings, and export helpers.
-
-## Development
-
-Prerequisites:
-- Node.js 18+ (recommended)
-- npm
+### Technologies
+- Vite
+- ReactJS
+- Monaco
+- Javascript
+- CSS
 
